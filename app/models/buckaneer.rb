@@ -1,0 +1,2 @@
+class Buckaneer < ApplicationRecord
+end
