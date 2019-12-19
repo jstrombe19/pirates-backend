@@ -20,8 +20,8 @@ class ShipsController < ApplicationController
     if @ship.save
       render :show, status: :created, location: @ship
     else
-      render json: @ship
-    end
+      # render json: @ship
+    # end
   end
 
   # PATCH/PUT /ships/1
