@@ -1,2 +1,0 @@
-class BuckaneersController < ApplicationController
-end

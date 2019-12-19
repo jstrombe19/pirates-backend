@@ -3,9 +3,9 @@ class ShipsController < ApplicationController
 
   # GET /ships
   # GET /ships.json
-  def index
-    @ships = Ship.all
-  end
+  # def index
+  #   @ships = Ship.all
+  # end
 
   # GET /ships/1
   # GET /ships/1.json
@@ -20,7 +20,7 @@ class ShipsController < ApplicationController
     if @ship.save
       render :show, status: :created, location: @ship
     else
-      render json: @ship.errors, status: :unprocessable_entity
+      render json: @ship
     end
   end
 

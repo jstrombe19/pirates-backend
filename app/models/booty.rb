@@ -1,0 +1,2 @@
+class Booty < ApplicationRecord
+end
